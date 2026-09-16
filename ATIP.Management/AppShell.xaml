@@ -4,11 +4,12 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ATIP.Management"
+    xmlns:views="clr-namespace:ATIP.Management.Views"
     Title="ATIP.Management">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    Title="Dashboard"
+    ContentTemplate="{DataTemplate views:DashboardPage}"
+    Route="dashboard" />
 
 </Shell>
